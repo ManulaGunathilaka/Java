@@ -1,0 +1,14 @@
+//Create class books
+
+public class book{
+    public book (string book name){
+        //This is a constructer.
+    system.out.Println("Book name is:"+bookname);
+    }
+
+    public static void main(String[]args){
+      //following statement would create an object my Book.
+       Book myBook1=new Book("Madol");
+       Book myBook2=new Book("Doowa");
+    }
+]
