@@ -1,0 +1,48 @@
+import java.io.*;
+public class Book {
+
+    String title;
+    double price;
+    String Publisher;
+
+    //This is the constructor of the class Book.
+    Public Book(String title){
+    this.title = title;
+    }
+
+    //This is the Price of books.
+      Public Void bookPrice(double bookPrice){
+	Price = bookPrice;
+    }
+
+    Public void get Publisher(String bPublisher){
+	Publisher = bPublisher;
+    }
+    
+    /* Print the book details */
+
+Public void PrintBook(){
+    System.out.Println ("Title:"+title);
+    System.out.Println ("Price:"+price);
+    System.out.Println ("Publisher:"+publisher);
+    }
+}
+
+Public class BookTest(){
+    Public Static void main(String args[]){
+       /* Create two objects using Constructor */
+       Book bOne = new Book("Madol");
+       Book bTwo = new Book("Doowa");
+
+    //Invoking methods for each object created
+    bone.bPrice(750);
+    bone.bPublisher(Martin);
+    bone.PrintBook();
+    
+    bTwo.bPrice(1000);
+    bTwo.bPublisher(Jagath);
+    bTwo.PrintBook();
+    }
+]  
+    
+
