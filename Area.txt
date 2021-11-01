@@ -1,0 +1,25 @@
+Class Room
+{
+   float length;
+   float width;
+  
+   Void get data(float a,float b)
+   {
+	length =a;
+        width =b;
+   }
+}
+Class RoomArea.
+{
+   Public static void main(string.args[])
+  {
+   float area;
+
+   Room room1 = new Room();
+   room 1.get data(14,10);
+
+   area=(room1.length*room1.breadth);
+   
+   System.Out.Println("Area="+area);
+  }
+}
