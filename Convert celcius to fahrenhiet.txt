@@ -1,0 +1,18 @@
+class temparature
+{
+   float celcius;
+  void get celcius(float x)
+  {
+	celcius =x;
+  }
+
+Public static void main(String[]args){
+  /* Object creation */
+   float fahrenhiet;
+  tempartaure countrytemparature = new temparature();
+  countrytemparature.getcelcius(50);
+  
+  fahrenhiet=(9/5* country temparature.celcius+32);
+  System.out.Println("Fahrenhiet="+fahrenhiet);
+  }
+}
