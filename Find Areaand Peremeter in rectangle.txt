@@ -1,0 +1,30 @@
+Class Room
+{
+    float length;
+    float width;
+
+  Void get data(float a,float b)
+  {
+	length= a;
+        width= b;
+  }
+}
+Class Calculation.
+{
+   public static void main(String.args[])
+   {
+	float area;
+  	float peremeter;
+
+   Rectangle rec1 = newRectangle();
+	rec1.getdata(2,4)
+
+   area =(rec1.length*rec1.width);
+   
+   perimeter =(rec1.length+rec1.width)*2;
+
+   System.out.println("Area="+area);
+  
+   System.out.println("Peremeter="+peremeter);
+   }
+}
